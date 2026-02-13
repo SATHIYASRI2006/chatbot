@@ -1,7 +1,7 @@
 import streamlit as st
 from groq import Groq
 
-client = Groq(api_key="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")
+client = Groq(api_key="API_KEY")
 
 data = [
     "Python is a programming language.",
@@ -52,3 +52,4 @@ if st.button("Ask"):
 
 st.markdown("---")
 st.caption("Simple RAG-based Q/A Chatbot using Streamlit")
+
